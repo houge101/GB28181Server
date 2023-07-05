@@ -7,7 +7,7 @@
 - 支持 下级设备注册，支持级联上级，并转发下级视频到上级
 
 ## 说明
-此代码是基于  北小菜 （https://gitee.com/Vanishi/BXC_SipServer.git）和 lyyyuna (https://github.com/lyyyuna/gb28181_client) 两位大神的代码进行了一个拼接整合
+此代码是基于  北小菜 （ https://gitee.com/Vanishi/BXC_SipServer.git ） 和 lyyyuna (https://github.com/lyyyuna/gb28181_client) 两位大神的代码进行了一个拼接整合
   依靠ZLMediaServer进行视频转发。
   此代码仅仅是一个 demo。功能不完善（比如，视频流只能启动转发，不能停止。比如：不能灵活接收下级IPC的注册，只能写死通道号级联报给上级，在比如：调用startSendRtp接口时候，ssrc等参数都是写死的，正常应该灵活获取才对）
   所以大家凑合用吧。根据自己需求在改
