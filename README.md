@@ -19,7 +19,7 @@
 init.sh脚本仅供参考
 ```
 2）编译代码
-如果想交叉编译，将CMakeLists-ARM.txt修改为CMakeLists.txt
+如果想交叉编译，将CMakeLists-ARM.txt修改为CMakeLists.txt，并修改对应的参数为自己系统参数
 ```
 mkdir build && cd build
 cmake ..
