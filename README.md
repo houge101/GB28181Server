@@ -5,6 +5,7 @@
 - 支持 Linux
 - 支持 交叉编译
 - 支持 下级设备注册，支持级联上级，并转发下级视频到上级（以wvp为上级进行的测试）
+- 支持 海康，大华和天地摄像头注册。
 
 ## 说明
 此代码是基于  北小菜 （ https://gitee.com/Vanishi/BXC_SipServer.git ） 和 lyyyuna (https://github.com/lyyyuna/gb28181_client) 两位大神的代码进行了一个拼接整合
