@@ -1,0 +1,6 @@
+wvp给你发invite请求，你解析sdp后控制摄像头向你的zlm推流，成功后返回wvp带sdp的200ok，然后收到ack响应后调用startSendRtp向wvp发送视频流
+
+http://127.0.0.1:18082/index/api/startSendRtp?vhost=__defaultVhost__&app=rtp&stream=05F5E101&ssrc=06F5E666&dst_url=192.168.50.150&dst_port=30030&is_udp=0
+stream应该是摄像头注册到你zlm的流id
+
+

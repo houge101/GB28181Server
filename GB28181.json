@@ -1,0 +1,30 @@
+{
+	"deal" : "GB28181",
+	"userName":"admin",
+	"userPwd":"zx123456",
+	"platform":{
+		"platform_comment":"级联平台（wvp）sip.Id，sip.port，sip.ip",
+		"platform_id":"35070000002000000001",
+		"platform_port":5065,
+		"platform_ip":"192.168.50.240"
+	},
+	
+	"Local":{
+		"Local_comment":"本地平台sipId，端口号，ip地址,端口号不可和平台相同",
+		"local_id":"37070000002000000001",
+		"local_domain":"3707000000",
+		"local_port":5063,
+		"local_ip":"192.168.50.241",
+		"local_number":"37030000002000000032"
+	},
+
+	"cameraInf":{
+		"camera_comment":"摄像头数目，目前只支持一个相机，sipId，camera1_sip_id代表视频通道编码ID",
+		"camera":[
+		{
+			"camera_sip_id":"18223002001310012912",
+			"camera_recv_port":"6053"
+		}
+		]
+	}
+}
